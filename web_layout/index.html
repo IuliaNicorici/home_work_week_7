@@ -10,42 +10,77 @@
     <title>Web Layout</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header_container">
-        <img src="./assets/image/logo/IMAGE.png" class="hd_logo" alt="Logo" />
-        <div class="link_box">
-          <a href="#" class="link">Home</a>
-          <a href="#" class="link">About</a>
-          <a href="#" class="link">Pages</a>
-        </div>
-        <div class="icon">
-          <div class="icon_1">
-            <img src="./assets/image/icon/IMAGE.png" alt="icon_donation" />
-          </div>
-          <button class="header_button">Donate now</button>
-        </div>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header_menu">
+          <img
+            src="./assets/image/logo/IMAGE.png"
+            class="header_logo"
+            alt="Logo"
+          />
+          <ul class="menu_list">
+            <li><a href="#" class="menu_list_link">Home</a></li>
+            <li><a href="#" class="menu_list_link">About</a></li>
+            <li><a href="#" class="menu_list_link">Pages</a></li>
+          </ul>
+        </nav>
+        <nav class="menu_icon">
+          <img
+            src="./assets/image/icon/IMAGE.png"
+            class="menu_icon_ png"
+            alt="icon_donation"
+          />
+          <button class="menu_button">Donate now</button>
+        </nav>
       </header>
-      <main>
+      <main class="main">
         <div class="main_text">
-          <h1>Giving help to those who need it</h1>
-          <h4>
+          <h1 class="main_text_h1">Giving help to those who need it</h1>
+          <h4 class="main_text_h4">
             Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit
             phasellus mollis sit aliquam sit nullam.
           </h4>
-          <button class="main_button_1">Donate now</button>
-          <button class="main_button_2">About our charity</button>
+          <div class="main_button">
+            <button class="main_button_1">Donate now</button>
+            <button class="main_button_2">About our charity</button>
+          </div>
         </div>
       </main>
-      <aside>
-        <img src="./assets/image/img/IMAGE.png" alt="Foto Happy Children" />
+      <aside class="aside">
+        <img
+          src="./assets/image/img/IMAGE.png"
+          class="aside_ image"
+          alt="Foto Happy Children"
+        />
       </aside>
-      <footer>
-        <div class="footer_img">
-          <img src="./assets/image/frame/Frame_1.png" alt="Frame" />
-          <img src="./assets/image/frame/Frame_2.png" alt="Frame" />
-          <img src="./assets/image/frame/Frame_3.png" alt="Frame" />
-          <img src="./assets/image/frame/Frame_4.png" alt="Frame" />
-        </div>
+      <footer class="footer">
+        <nav class="footer_menu">
+          <ul class="footer_menu_list">
+            <li>
+              <a href="#" class="footer_list_item">
+                <img
+                  src="./assets/image/frame/Frame_1.png"
+                  class="footer_list_item"
+                  alt="Frame"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="footer_list_item"
+                ><img src="./assets/image/frame/Frame_2.png" alt="Frame"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="footer_list_item">
+                <img src="./assets/image/frame/Frame_3.png" alt="Frame"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="footer_list_item">
+                <img src="./assets/image/frame/Frame_4.png" alt="Frame"
+              /></a>
+            </li>
+          </ul>
+        </nav>
       </footer>
     </div>
   </body>

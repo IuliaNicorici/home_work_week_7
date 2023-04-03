@@ -52,22 +52,7 @@
 @media screen and (min-width: 400px) and (max-width: 599px) {
     .footer_container{
         display: none;
-    }
-    .container {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: minmax(100px, auto);
-        width: 100%;
-        height: 100vh;
-        font-size: 1em;
-        grid-template-areas: 
-        "header header header header"
-        "main main aside aside"
-        "main main aside aside"
-        "main main aside aside"
-        "main main aside aside";   
-    }
-    
+    }   
 }
 @media screen and (max-width: 768px){
     .footer{
